@@ -1,9 +1,9 @@
   // Format date as MM/DD/YYYY
 module.exports = {
     format_date: (date) => {
-     
-         return `${new Date(date).getMonth() + 1}
-                /${new Date(date).getDate()}
-                /${new Date(date).getFullYear()}`;
+     const dateData = new Date(date)
+         return `${dateData.getMonth() + 1}
+                /${dateData.getDate()}
+                /${dateData.getFullYear()}`;
     } 
   };
