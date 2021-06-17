@@ -4,10 +4,11 @@ const router = require('express').Router();
 const { User, Post, Comments } = require('../models');
 const withAuth = require('../utils/auth');
 
-// get all posts
+// get all user posts
 router.get('/', withAuth, async (req, res) => {
     try {
       const posts = await Post.findAll({
+        where: {user_id: req.session.user_id},
         include: [
           {
             model: User,
@@ -20,12 +21,12 @@ router.get('/', withAuth, async (req, res) => {
           } 
         ]
     });
-
+    console.log(posts)
     // Serialize data so the template can read it
     const postData = posts.map((post) => post.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', { 
+    res.render('dashboard-post', { 
       layout: "dashboard",
       postData, 
       logged_in: req.session.logged_in 
@@ -63,6 +64,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
       const postData = posts.get({ plain: true });
   
       res.render('edit-post', {
+        layout: 'dashboard',
         postData,
         logged_in: req.session.logged_in
       });
@@ -73,7 +75,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
 
    //Create a new post 
   router.get('/new', (req, res) => {
-    res.render('new-post', {logged_in: true});
+    res.render('new-post', {layout: 'dashboard', logged_in: true});
 });
         //should i do the above or the one below for new post and how to serialize it
 // router.post('/', async (req, res) => {

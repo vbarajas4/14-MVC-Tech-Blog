@@ -47,7 +47,7 @@ router.post('/login', async (req, res) => {
     }
 
     user = users.toJSON()
-    console.log(user, "line36")
+    
     if (!user) {
       res
         .status(400)
