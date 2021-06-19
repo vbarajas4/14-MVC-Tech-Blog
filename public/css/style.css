@@ -30,7 +30,7 @@ header a:hover {
     color: lightblue; 
    }
 
-.title {
+.title, .app-title, h1 a {
     font-size: 25px;
     color: black;
     background-color: white;
@@ -54,6 +54,7 @@ header {
   
 header h1 {
     font-size: 25px;
+    color: black;
   }
 
 main {
@@ -61,3 +62,25 @@ main {
     padding: 15px;
     background-color: lightblue;
   }
+
+.footer {
+  background-color: lightblue;
+}
+
+.footer a {
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+
