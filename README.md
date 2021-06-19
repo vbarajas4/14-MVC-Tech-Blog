@@ -1,12 +1,18 @@
 # 14-MVC-Tech-Blog
+ #### Model View Controller assignment deployed to Heroku
+ [Link to Heroku](https://tech-blog-01.herokuapp.com/)
 
-# 14 Model-View-Controller (MVC): Tech Blog
 
-## Your Task
+### Application Quality: 15%
+Still need to fix this 
+* User experience is intuitive and easy to navigate.
 
-Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!
+* User interface style is clean and polished.
 
-Your task this week is to build a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. You’ll build this site completely from scratch and deploy it to Heroku. Your app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+* Application resembles the mock-up functionality provided in the homework instructions.
+
+* Repository contains quality readme file with description, screenshot, and link to deployed application.
+
 
 ## User Story
 
@@ -16,7 +22,8 @@ I WANT a CMS-style blog site
 SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
-## Acceptance Criteria
+## Project Outline
+A work in progress...
 
 ```md
 GIVEN a CMS-style blog site
@@ -54,71 +61,52 @@ WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
 
-## Mock-Up
 
-The following animation demonstrates the application functionality:
+## Installation
 
-![Animation cycles through signing into the app, clicking on buttons, and updating blog posts.](./Assets/14-mvc-homework-demo-01.gif) 
+- packages need to be installed such as 
+node.js
+npm i 
+mysql
 
-## Getting Started
+## Usage
 
-Your application’s folder structure must follow the Model-View-Controller paradigm. You’ll need to use the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views, use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect to a MySQL database for your Models, and create an Express.js API for your Controllers.
+This is an application called Tech Blog. Where developers can blog about opinions on technology and coding, and get comments from other developers perspectives.
 
-You’ll also need the [dotenv package](https://www.npmjs.com/package/dotenv) to use environment variables, the [bcrypt package](https://www.npmjs.com/package/bcrypt) to hash passwords, and the [express-session](https://www.npmjs.com/package/express-session) and [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) packages to add authentication.
+## Tests
 
-**Note**: The [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and you do not have to do anything to your application other than implement the npm package.
+No Test for this application.
 
-## Grading Requirements
+## Screenshots of Application
 
-This homework is graded based on the following criteria:
 
-### Technical Acceptance Criteria: 40%
 
-* Satisfies all of the preceding acceptance criteria plus the following:
 
-    * Application’s folder structure follows the Model-View-Controller paradigm.
 
-    * Uses the [express-handlebars](https://www.npmjs.com/package/express-handlebars) package to implement Handlebars.js for your Views.
+## Important Links
 
-    * Application must be deployed to Heroku.
+[Github](https://github.com/vbarajas4/14-MVC-Tech-Blog)
 
-### Deployment: 32%
+ 
+## Framework, Technologies, packages
 
-* Application deployed at live URL.
+- VS Code App
+- express node.js 
+- MySql2
+- bcrypt
+- sequelize
+- express-handlebars
+- express-session
+- express-session-sequelize
 
-* Application loads with no errors.
+## Contributing
+This project is not accepting contributors at this moment.
 
-* Application GitHub URL submitted.
+## License
+![badge](https://img.shields.io/badge/license-MIT-yellow)
+##### This application is licensed under the [MIT]([Link ](https://opensource.org/licenses/MIT)) license.
+A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Questions
+ * GitHub: [vbarajas4](https://github.com/vbarajas4)
+ * Email: [vbarajas4@gmail.com](mailto:vbarajas4@gmail.com)
