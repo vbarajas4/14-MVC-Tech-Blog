@@ -116,3 +116,7 @@ main {
 .min-100-vh {
   min-height: 100vh;
 }
+
+p {
+  margin: 10px;
+}

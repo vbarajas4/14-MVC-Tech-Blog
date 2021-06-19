@@ -1,3 +1,11 @@
-<div>
-    {{comment_text}}
+<div class="card row mb-4 post-list">
+  <div class="col-md-5">
+    <div>
+       <p>
+        {{comment_text}}
+       </p>  
+    </div>
+    <p>Commented by {{user.username}} on {{format_date post.createdAt}}</p>
+  </div>
 </div>
+
