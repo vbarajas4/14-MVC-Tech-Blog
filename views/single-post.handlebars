@@ -14,3 +14,18 @@
 {{#each post.comments  as |comment|}} 
 {{> comment-post user_id=1 }}
 {{/each}}
+
+<div class="card">
+  <div class="card-title">
+    <h2></h2>
+  </div>
+    <form class="comment-form">
+        <label for="content">Comment: </label>
+        <textarea id="comment-post" name="content" rows="4" cols="50"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script src="/js/comment-post.js"></script>
+
+//i need it to take me back to homepage <a href="/"
