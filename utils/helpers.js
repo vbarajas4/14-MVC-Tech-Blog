@@ -5,5 +5,11 @@ module.exports = {
          return `${dateData.getMonth() + 1}
                 /${dateData.getDate()}
                 /${dateData.getFullYear()}`;
-    } 
+    },
+    compare_users: (comment_users, user) => {
+      return comment_users === user
+    }
+
+
   };
+

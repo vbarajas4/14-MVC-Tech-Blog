@@ -11,6 +11,6 @@
     <p>Posted by {{post.user.username}} on {{format_date post.createdAt}}</p>
   </div>
 </div>
-{{#each post.comments }}
-{{> comment-post}}
+{{#each post.comments  as |comment|}} 
+{{> comment-post user_id=1 }}
 {{/each}}

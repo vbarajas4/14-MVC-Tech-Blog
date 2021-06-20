@@ -48,7 +48,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
         },
         {
           model: Comments,
-          attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+          attributes: ['id', 'comment_text', 'post_id', 'user_id', 'createdAt'],
           include: { model: User, attributes: ['username']}
         }
       ]
@@ -62,7 +62,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
       }
   
       const postData = posts.get({ plain: true });
-  
+      console.log(postData)
       res.render('edit-post', {
         layout: 'dashboard',
         postData,
