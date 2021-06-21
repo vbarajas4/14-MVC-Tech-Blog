@@ -121,15 +121,19 @@ p {
   margin: 10px;
 }
 
+button,
 form label,
 form input,
 form textarea {
   display: block;
 }
+button,
 form label {
   font-size: 16px;
   margin: 15px;
 }
+
+button,
 form input,
 form textarea {
   width: 98%;
