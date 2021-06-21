@@ -3,17 +3,6 @@
  [Link to Heroku](https://tech-blog-01.herokuapp.com/)
 
 
-### Application Quality: 15%
-Still need to fix this 
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-
 ## User Story
 
 ```md
@@ -23,7 +12,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 ## Project Outline
-A work in progress...
+A work in progress...#38 & #46
 
 ```md
 GIVEN a CMS-style blog site
@@ -79,8 +68,23 @@ No Test for this application.
 
 ## Screenshots of Application
 
+Homepage
+<img width="1214" alt="Screen Shot 2021-06-20 at 6 28 47 PM" src="https://user-images.githubusercontent.com/79430431/122696286-9c0a9a80-d1f7-11eb-8d5a-9e2c82bdc2a5.png">
 
+Dashboard
+<img width="1214" alt="Screen Shot 2021-06-20 at 6 29 13 PM" src="https://user-images.githubusercontent.com/79430431/122696297-a331a880-d1f7-11eb-8b73-7c18d53480ef.png">
 
+Create a new post while logged in 
+<img width="1214" alt="Screen Shot 2021-06-20 at 6 31 04 PM" src="https://user-images.githubusercontent.com/79430431/122696302-a62c9900-d1f7-11eb-9eb7-477f467b4fe6.png">
+
+Once your post is created it will post it in your Dashboard
+<img width="1214" alt="Screen Shot 2021-06-20 at 6 31 23 PM" src="https://user-images.githubusercontent.com/79430431/122696307-a88ef300-d1f7-11eb-9675-2b5185f6a9be.png">
+
+Edit a Post while logged in or Delete a Post
+<img width="1214" alt="Screen Shot 2021-06-20 at 6 39 05 PM" src="https://user-images.githubusercontent.com/79430431/122696314-aa58b680-d1f7-11eb-94d0-6cc4138958c4.png">
+
+while in Homepage, the option to make a comment to a post is available
+<img width="1214" alt="Screen Shot 2021-06-20 at 6 39 30 PM" src="https://user-images.githubusercontent.com/79430431/122696322-adec3d80-d1f7-11eb-9fb9-aaa7de36eb11.png">
 
 
 ## Important Links
@@ -110,3 +114,5 @@ A short and simple permissive license with conditions only requiring preservatio
 ## Questions
  * GitHub: [vbarajas4](https://github.com/vbarajas4)
  * Email: [vbarajas4@gmail.com](mailto:vbarajas4@gmail.com)
+
+ 
