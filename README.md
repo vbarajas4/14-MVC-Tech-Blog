@@ -12,7 +12,7 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 ## Project Outline
-A work in progress...#38 & #46
+A work in progress...being able to comment & Delete Post
 
 ```md
 GIVEN a CMS-style blog site
@@ -54,9 +54,9 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 ## Installation
 
 - packages need to be installed such as 
-node.js
-npm i 
-mysql
+- node.js
+- npm i 
+- mysql
 
 ## Usage
 
@@ -115,4 +115,3 @@ A short and simple permissive license with conditions only requiring preservatio
  * GitHub: [vbarajas4](https://github.com/vbarajas4)
  * Email: [vbarajas4@gmail.com](mailto:vbarajas4@gmail.com)
 
- 
