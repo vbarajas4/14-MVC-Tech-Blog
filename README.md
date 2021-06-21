@@ -12,7 +12,6 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 ```
 
 ## Project Outline
-A work in progress...being able to comment & Delete Post
 
 ```md
 GIVEN a CMS-style blog site
